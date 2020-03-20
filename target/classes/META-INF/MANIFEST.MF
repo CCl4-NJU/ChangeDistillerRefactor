@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-Description: Fine-grained source code change extractor
+Bundle-DocURL: http://seal.ifi.uzh.ch
+Bundle-ManifestVersion: 2
+Bundle-Name: ChangeDistiller OSGI Bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,JavaSE-1.6,JavaSE-1.7
+Bundle-SymbolicName: top.cwy.ChangeDistillerRefactor
+Bundle-Vendor: Software Architecture and Evolution Lab, Department of In
+ formatics, UZH
+Bundle-Version: 1.0.0.SNAPSHOT
+Import-Package: org.eclipse.jdt.core.compiler,org.eclipse.jdt.internal.c
+ ompiler,org.eclipse.jdt.internal.compiler.ast,org.eclipse.jdt.internal.
+ compiler.batch,org.eclipse.jdt.internal.compiler.env,org.eclipse.jdt.in
+ ternal.compiler.impl,org.eclipse.jdt.internal.compiler.lookup,org.eclip
+ se.jdt.internal.compiler.parser,org.eclipse.jdt.internal.compiler.probl
+ em
+Require-Bundle: com.google.inject;bundle-version="3.0.0"
